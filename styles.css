@@ -4,3 +4,19 @@
 
     Assignment: Cheech's Flexible Pizza Parlor
 */
+
+.header-content {
+    position: relative;
+    text-align: center;
+    color: blue;
+}
+
+#shop-name {
+    background-color: rgba(240, 248, 255, 0.64);
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 20px;
+    position: absolute;
+    width: 30%;
+    top: 40px;
+}

@@ -20,3 +20,11 @@
     width: 30%;
     top: 40px;
 }
+
+fieldset {
+    border: 0;
+}
+
+.checked {
+    color: orange;
+}

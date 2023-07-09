@@ -5,20 +5,87 @@
     Assignment: Cheech's Flexible Pizza Parlor
 */
 
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 .header-content {
     position: relative;
-    text-align: center;
-    color: blue;
+    margin: -8px;
 }
 
 #shop-name {
-    background-color: rgba(240, 248, 255, 0.64);
-    border: 1px solid black;
-    border-radius: 50%;
-    padding: 20px;
     position: absolute;
-    width: 30%;
-    top: 40px;
+    text-align: center;
+    background-color: rgba(189, 25, 25, 0.74);
+    border: 2px solid black;
+    border-radius: 50%;
+    color: orange;
+    font-size: 40px;
+    width: 200px;
+    padding: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.nav-bar ul{
+    list-style-type: none;
+    background-color: darkgray;
+    display: flex;
+    margin: 0px -8px;
+    padding: 10px 0px 10px 0px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 30px;
+    padding: 0px 20px;
+    color: black;
+}
+
+a:hover{
+    background-color: rgba(189, 25, 25, 0.74);
+    padding: 5px 18px 5px 18px;
+    border-radius: 5px;
+    color: orange;
+}
+
+.container{
+    width: 100%;
+    margin: 20px auto 0 auto;
+    padding: 10px 0 10px 0;
+    background-color: beige;
+    text-align: center;
+}
+
+.container h1{
+    font-size: 50px;
+}
+
+.columns-container{
+    max-width: 1400px;
+    margin: 40px auto 0 auto;
+    display: flex;
+    background-color: antiquewhite;
+    flex-wrap: wrap;
+}
+
+.columns{
+    flex: 1 400px;
+}
+
+.columns h2{
+    text-decoration: underline;
+    color: rgb(189, 25, 25);
+}
+
+.columns-container img{
+    margin-top: 20px;
+    width: 90%;
+    border: 2px solid rgb(189, 25, 25);
+    border-radius: 2px;
+    box-shadow: 2px 2px 10px rgb(189, 25, 25);
 }
 
 fieldset {

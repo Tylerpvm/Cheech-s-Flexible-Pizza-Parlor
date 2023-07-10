@@ -1,2 +1,2 @@
-# Cheech's Flexible Pizza Parlor
+# PizzaParlor
 ## Tyler

@@ -52,25 +52,27 @@
                     <label for="phone">
                         <input type="text" name="phone" id="phone" required placeholder="Phone Number">
                     </label>
-                    <label for="pizza-choice">
-                        <select name="pizza-choice" id="pizza-choice">
-                            <option value="cheese">Cheese</option>
-                            <option value="pepperoni">Pepperoni</option>
-                            <option value="meat-lovers">Meat Lovers</option>
-                            <option value="supreme">Supreme</option>
-                            <option value="hawaiian">Hawaiian</option>
-                            <option value="veggie">Veggie</option>
-                        </select>
-                    </label>
-                    <label for="number">
-                        <input type="number" name="number" id="number" min="1" max="99" required
-                            placeholder="How many pizza's?">
-                    </label>
+                    <div class="order-container">
+                        <label for="pizza-choice" class="pizza-choice">
+                            <select name="pizza-choice" id="pizza-choice">
+                                <option value="cheese">Cheese</option>
+                                <option value="pepperoni">Pepperoni</option>
+                                <option value="meat-lovers">Meat Lovers</option>
+                                <option value="supreme">Supreme</option>
+                                <option value="hawaiian">Hawaiian</option>
+                                <option value="veggie">Veggie</option>
+                            </select>
+                        </label>
+                        <label for="number" class="number">
+                            <input type="number" name="number" id="number" min="1" max="99" required
+                                placeholder="How many pizza's?">
+                        </label>
+                    </div>
                     <label for="special-requests">
                         <textarea name="specialrequests" id="special-requests" cols="30" rows="10"
                             placeholder="Do you have any special requests?"></textarea>
                     </label>
-                    <input type="submit" value="Submit" id="submit">
+                    <input type="submit" value="Place Order" id="submit">
                 </fieldset>
             </form>
         </div>
@@ -90,10 +92,11 @@
             <div class="connect">
                 <h2>Connect with us</h2>
                 <p>For support:</p>
-                <p>Email us at <a href="mailto:cheechpizza@gmail.com">cheechpizza@gmail.com</a></p>
+                <p>Email us at: <a href="mailto:cheechpizza@gmail.com">cheechpizza@gmail.com</a></p>
             </div>
 
             <div class="social-media">
+                <h2>Social Media</h2>
                 <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
                 <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-square-twitter"></i></a>
                 <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>

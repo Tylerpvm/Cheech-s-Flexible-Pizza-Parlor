@@ -7,6 +7,7 @@
 
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: beige;
 }
 
 .header-content {
@@ -21,8 +22,8 @@ body{
     border: 2px solid black;
     border-radius: 50%;
     color: orange;
-    font-size: 40px;
-    width: 200px;
+    font-size: 80px;
+    width: 400px;
     padding: 20px;
     top: 50%;
     left: 50%;
@@ -52,8 +53,7 @@ a:hover{
 }
 
 .container{
-    width: 100%;
-    margin: 20px auto 0 auto;
+    margin: 0 -8px;
     padding: 10px 0 10px 0;
     background-color: beige;
     text-align: center;
@@ -92,6 +92,115 @@ fieldset {
     border: 0;
 }
 
+label{
+    display: block;
+    padding-bottom: 5px;
+}
+
+#fname, #lname, #phone, #number{
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid black;
+    width: 90%;
+}
+
+#submit{
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 8px;
+    width: 100px;
+}
+
+#special-requests{
+    border-radius: 8px;
+    width: 92.5%;
+    border: 2px solid black;
+}
+
+select {
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid black;
+    width: 93%;
+}
+
+.order-container{
+    display: flex;
+}
+
+.pizza-choice, .number{
+    padding-right: 6px;
+    width: 47%;
+}
+
+.testimonial {
+    border: 2px solid gray;
+    border-radius: 5px;
+    width: 75%;
+    background-color: white;
+    box-shadow: 5px 5px 5px darkgray;
+    padding: 10px;
+    margin: 20px auto 20px auto ;
+}
+
+
 .checked {
     color: orange;
+}
+
+.connect{
+    width: 50%;
+    margin: 20px 0px 20px 85px;
+}
+
+.connect a{
+    font-size: 16px;
+    color: blue;
+    text-decoration: underline;
+    background-color: antiquewhite;
+}
+.connect a:hover{
+    padding: 20px;
+    color: orange;
+}
+
+.social-media{
+    width: 50%;
+    padding: 5px;
+    margin: 20px 0px 20px 80px;
+}
+
+.social-media a{
+    padding: 0 5px 0 0;
+    background-color: antiquewhite;
+    color: rgba(0, 174, 255, 0.699);
+}
+
+.storage{
+    border: 2px solid black;
+    width: 75%;
+    padding: 10px;
+    margin: 81px auto;
+    background-color: antiquewhite;
+    box-shadow: 5px 5px 5px black;
+}
+
+footer{
+    text-align: center;
+    background-color: darkgray;
+    margin: 0 -8px;
+    padding: 1px;
+}
+
+@media screen and (max-width: 1226px) {
+    #shop-name{
+        font-size: 40px;
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .nav-bar ul {
+        flex-flow: column wrap;
+    }
 }
